@@ -3,7 +3,7 @@ import React from 'react';
 const DigitalUSBAlbumCards: React.FC = () => {
   return (
     <div className="mb-16">
-      <h3 className="text-2xl font-bold text-brand-red mb-4 text-center">Digital USB Album Cards: The Future of Content Distribution</h3>
+      <h3 className="pt-12 text-2xl font-bold text-brand-red mb-4 text-center">Digital USB Album Cards: The Future of Content Distribution</h3>
       <p className="text-gray-300 max-w-3xl mx-auto leading-relaxed">
         Digital USB Album Cards are a revolutionary way to distribute your music, films, software, or any digital content. They combine the tangibility of physical media with the convenience and versatility of digital files:
       </p>

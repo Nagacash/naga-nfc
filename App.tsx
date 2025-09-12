@@ -3,6 +3,7 @@ import Header from './src/components/Header';
 import Hero from './src/components/Hero';
 import WhatWeOffer from './src/components/WhatWeOffer';
 import HowItWorks from './src/components/HowItWorks';
+import HowToOrder from './src/components/HowToOrder';
 import HowUSBWorks from './src/components/HowUSBWorks';
 import NFCExplanation from './src/components/NFCExplanation';
 import GoogleReviewsExplanation from './src/components/GoogleReviewsExplanation';
@@ -98,10 +99,12 @@ const App: React.FC = () => {
       <Header />
       <main>
         <Hero />
-        <WhatWeOffer />
         <DigitalUSBAlbumCards />
+        <WhatWeOffer />
+       
         <HowUSBWorks />
         <HowItWorks />
+        <HowToOrder />
         <NFCExplanation />
         <GoogleReviewsExplanation />
         <MonetizeMusic />

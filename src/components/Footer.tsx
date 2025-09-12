@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { LogoIcon, ArrowUpIcon } from './Icons';
+import { LogoIcon, ArrowUpIcon, InstagramIcon } from './Icons';
 
 interface FooterProps {
   onPolicyClick: () => void;
@@ -43,6 +43,12 @@ const Footer: React.FC<FooterProps> = ({ onPolicyClick }) => {
           <LogoIcon className="w-6 h-6 text-brand-red" />
           <span className="ml-2 text-xl font-display text-gray-300">STREAMII</span>
         </div>
+        <div className="flex justify-center items-center space-x-4 mb-4">
+          <a href="https://www.instagram.com/streamii_" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-brand-red transition-colors">
+            <InstagramIcon className="w-6 h-6" />
+          </a>
+          
+        </div>
         <div className="flex flex-col sm:flex-row justify-center items-center gap-2 sm:gap-4 mb-2 text-sm text-gray-400">
           <span>&copy; {new Date().getFullYear()} STREAMII. All rights reserved.</span>
           <span className="hidden sm:inline">|</span>
@@ -50,7 +56,9 @@ const Footer: React.FC<FooterProps> = ({ onPolicyClick }) => {
               Privacy Policy
           </button>
         </div>
-        <p className="text-sm">Powered by <a href="https://www.instagram.com/naga_apparel" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-brand-red transition-colors">Naga Apparel</a></p>
+        <p className="text-sm text-gray-400 mt-2">We ship worldwide</p>
+        <p className="text-sm text-gray-400 mt-2">Powered by <a href="https://www.instagram.com/naga_apparel" target="_blank" rel="noopener noreferrer" className="hover:text-brand-red transition-colors">Naga Apparel</a></p>
+        
       </div>
       
       {/* Scroll to top button */}

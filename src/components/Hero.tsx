@@ -20,7 +20,7 @@ const Hero: React.FC = () => {
       </div>
 
       <div className="relative z-10 px-6">
-        <TypewriterText text="Get Ahead Of The Biggest Shift In Music Content Distribution EVER!" className="font-display text-5xl md:text-7xl text-white leading-tight mb-6" />
+        <TypewriterText text="Get Ahead Of The Biggest Shift In Music Content Distribution EVER!" className="pt-12 font-display text-5xl md:text-7xl text-white leading-tight mb-6" />
       </div>
     </section>
   );
