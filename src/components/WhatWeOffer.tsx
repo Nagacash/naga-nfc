@@ -45,6 +45,7 @@ const BundleProducts: React.FC = () => {
       note: "Limited Edition",
       imageUrl: bundleImage,
       paymentLink: "https://buy.stripe.com/dRmbJ2aak0eDf97fBI43S01",
+      price: "€529",
     },
     {
       icon: <MusicIcon className="w-8 h-8 text-brand-red" />,
@@ -54,6 +55,7 @@ const BundleProducts: React.FC = () => {
       note: "Bulk Discount",
       imageUrl: bundleImage,
       paymentLink: "https://buy.stripe.com/9B6aEYcisgdB6CBaho43S02",
+      price: "€1999",
     },
     {
       icon: <MusicIcon className="w-8 h-8 text-brand-red" />,
@@ -62,7 +64,8 @@ const BundleProducts: React.FC = () => {
       specs: ["Material: PVC", "Size: 85.5*54mm (Credit Card)", "Thickness: 0.86mm", "Chip: NTAG213"],
       note: "Mass Distribution",
       imageUrl: bundleImage,
-      paymentLink: "https://buy.stripe.com/3cIaEYeqAaTh4ut9dk43S03",
+      paymentLink: "https://buy.stripe.com/bJebJ2gyI4uT9ON0GO43S04",
+      price: "€3799",
     },
     {
       icon: <MusicIcon className="w-8 h-8 text-brand-red" />,

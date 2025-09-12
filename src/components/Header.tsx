@@ -29,8 +29,8 @@ const Header: React.FC = () => {
 
   return (
     <>
-      <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${scrolled || isMenuOpen ? 'bg-brand-dark/80 backdrop-blur-sm shadow-lg' : 'bg-transparent'}`}>
-        <div className="container mx-auto px-6 py-4 flex justify-between items-center">
+      <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${scrolled || isMenuOpen ? 'bg-brand-dark shadow-lg' : 'bg-brand-dark'}`}>
+        <div className="container mx-auto px-6 py-6 flex justify-between items-center">
           <a href="#home" className="flex items-center space-x-2">
             <img src={logo} alt="Streamii Logo" className="w-8 h-8" />
             <span className="font-display text-3xl text-white">STREAMII</span>

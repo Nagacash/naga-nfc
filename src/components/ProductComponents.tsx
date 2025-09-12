@@ -14,13 +14,14 @@ export interface Product {
   imageUrl: string;
   children?: React.ReactNode;
   paymentLink: string;
+  price?: string; // Added price property
 }
 
 export interface ProductCardProps extends Product {
   onCardClick?: () => void;
 }
 
-export const ProductCard: React.FC<ProductCardProps> = ({ icon, title, description, specs, note, imageUrl, onCardClick, children }) => (
+export const ProductCard: React.FC<ProductCardProps> = ({ icon, title, description, specs, note, imageUrl, onCardClick, children, price }) => (
   <div className="bg-white/10 rounded-xl overflow-hidden shadow-2xl hover:shadow-glow-red transform hover:-translate-y-2 transition-all duration-300 flex flex-col border border-white backdrop-blur-md backdrop-brightness-125 cursor-pointer" onClick={onCardClick}>
     <div className="h-56">
         <img src={imageUrl} alt={title} className="w-full h-full object-cover grayscale" />
@@ -30,6 +31,7 @@ export const ProductCard: React.FC<ProductCardProps> = ({ icon, title, descripti
         {icon}
         <h3 className="text-2xl font-bold text-white ml-3">{title}</h3>
       </div>
+      {price && <p className="text-xl font-semibold text-brand-red mb-4">{price}</p>}
       <p className="text-gray-300 mb-4 flex-grow">{description}</p>
       <ul className="space-y-2 text-gray-400 mb-4">
         {specs.map((spec, index) => (
