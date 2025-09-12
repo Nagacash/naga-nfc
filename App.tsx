@@ -3,6 +3,11 @@ import Header from './src/components/Header';
 import Hero from './src/components/Hero';
 import WhatWeOffer from './src/components/WhatWeOffer';
 import HowItWorks from './src/components/HowItWorks';
+import HowUSBWorks from './src/components/HowUSBWorks';
+import NFCExplanation from './src/components/NFCExplanation';
+import GoogleReviewsExplanation from './src/components/GoogleReviewsExplanation';
+import MonetizeMusic from './src/components/MonetizeMusic';
+import DigitalUSBAlbumCards from './src/components/DigitalUSBAlbumCards';
 import Testimonials from './src/components/Testimonials';
 import FAQ from './src/components/FAQ';
 import CTA from './src/components/CTA';
@@ -89,12 +94,17 @@ const App: React.FC = () => {
   }
 
   return (
-    <div className={`bg-radial-gradient-black text-gray-200 font-sans antialiased transition-all duration-300 ${showBanner ? 'pb-36' : ''}`}>
+    <div className={`bg-brand-dark text-gray-200 font-sans antialiased transition-all duration-300 ${showBanner ? 'pb-36' : ''}`}>
       <Header />
       <main>
         <Hero />
         <WhatWeOffer />
+        <DigitalUSBAlbumCards />
+        <HowUSBWorks />
         <HowItWorks />
+        <NFCExplanation />
+        <GoogleReviewsExplanation />
+        <MonetizeMusic />
         <Testimonials />
         <FAQ />
         <CTA />
