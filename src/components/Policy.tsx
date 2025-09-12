@@ -35,6 +35,10 @@ const Policy: React.FC<PolicyProps> = ({ onBack }) => {
               Personally identifiable information may include, but is not limited to:
               Email address, First name and last name, Phone number, Usage Data.
             </p>
+            <p className="font-bold">
+              For all financial transactions, we utilize Stripe, a secure and trusted third-party payment processor.
+              Your payment information is handled directly by Stripe and is not stored on our servers, ensuring a secure payment experience.
+            </p>
              <h2 className="text-2xl font-bold text-white pt-4">Cookies and Tracking Technologies</h2>
             <p>
               We use cookies and similar tracking technologies to track the activity on Our Service and store certain information. Tracking technologies used are beacons, tags, and scripts to collect and track information and to improve and analyze Our Service. The technologies We use may include Cookies or Browser Cookies. A cookie is a small file placed on Your Device.
