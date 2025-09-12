@@ -3,7 +3,7 @@ import React from 'react';
 const NFCExplanation: React.FC = () => {
   return (
     <div className="mb-16">
-      <h3 className="text-2xl font-bold text-brand-red mb-4 text-center">How NFC Tap Works</h3>
+      <h3 className="pt-12 text-2xl font-bold text-brand-red mb-4 text-center">How NFC Tap Works</h3>
       <p className="text-gray-300 max-w-3xl mx-auto leading-relaxed">
         NFC (Near Field Communication) is a short-range wireless technology that allows two devices to communicate when they are brought within a few centimeters of each other. For NFC cards, it's incredibly simple:
       </p>

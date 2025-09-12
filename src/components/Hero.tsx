@@ -2,7 +2,7 @@ import React from 'react';
 import TypewriterText from './TypewriterText';
 
 const Hero: React.FC = () => {
-  const videoId = 'Ze261xg32N0';
+  const videoId = 'qDascklcshU';
   const embedUrl = `https://www.youtube.com/embed/${videoId}?autoplay=1&mute=1&controls=0&loop=1&playlist=${videoId}&showinfo=0&modestbranding=1&rel=0`;
 
   return (
@@ -20,7 +20,8 @@ const Hero: React.FC = () => {
       </div>
 
       <div className="relative z-10 px-6">
-        <TypewriterText text="Get Ahead Of The Biggest Shift In Music Content Distribution EVER!" className="pt-12 font-display text-5xl md:text-7xl text-white leading-tight mb-6" />
+        <TypewriterText text="Get Ahead Of The Biggest Shift
+In Music Content Distribution. EVER!" className="pt-12 font-display text-5xl md:text-7xl text-white leading-tight mb-6" />
       </div>
     </section>
   );

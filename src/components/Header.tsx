@@ -38,7 +38,6 @@ const Header: React.FC = () => {
           <nav className="hidden md:flex space-x-8">
             <a href="#offer" className="text-gray-300 hover:text-white transition-colors duration-200">What We Offer</a>
             <a href="#how" className="text-gray-300 hover:text-white transition-colors duration-200">How It Works</a>
-            <a href="#how-to-order" className="text-gray-300 hover:text-white transition-colors duration-200">How to order</a>
             <a href="#contact" className="text-gray-300 hover:text-white transition-colors duration-200">Contact</a>
           </nav>
           <a href="#contact" className="hidden md:inline-block bg-brand-red text-white font-semibold px-5 py-2 rounded-lg hover:bg-red-700 transition-colors duration-200">
@@ -56,7 +55,6 @@ const Header: React.FC = () => {
       <div className={`md:hidden fixed inset-0 z-40 bg-brand-dark flex flex-col items-center justify-center space-y-8 transition-opacity duration-300 ${isMenuOpen ? 'opacity-100' : 'opacity-0 pointer-events-none'}`}>
         <a href="#offer" onClick={() => setIsMenuOpen(false)} className="text-2xl text-gray-300 hover:text-white transition-colors">What We Offer</a>
         <a href="#how" onClick={() => setIsMenuOpen(false)} className="text-2xl text-gray-300 hover:text-white transition-colors">How It Works</a>
-        <a href="#how-to-order" onClick={() => setIsMenuOpen(false)} className="text-2xl text-gray-300 hover:text-white transition-colors">How to order</a>
         <a href="#contact" onClick={() => setIsMenuOpen(false)} className="text-2xl text-gray-300 hover:text-white transition-colors">Contact</a>
         <a href="#contact" onClick={() => setIsMenuOpen(false)} className="bg-brand-red text-white font-semibold px-6 py-3 rounded-lg text-xl mt-4 hover:bg-red-700 transition-colors">
             Get Started
