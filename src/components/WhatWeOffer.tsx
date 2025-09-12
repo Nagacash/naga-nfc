@@ -148,7 +148,9 @@ const BundleProducts: React.FC = () => {
           <h3>{selectedProduct.title}</h3>
           <p>{selectedProduct.description}</p>
           <button onClick={handleCloseModal} style={{ marginRight: '10px', padding: '8px 16px', backgroundColor: '#ccc', border: 'none', borderRadius: '4px', cursor: 'pointer' }}>Close</button>
-          <button onClick={() => handleCheckout(selectedProduct.paymentLink)} style={{ padding: '8px 16px', backgroundColor: '#ef4444', color: 'white', border: 'none', borderRadius: '4px', cursor: 'pointer' }}>Get in touch</button>
+          <button onClick={() => handleCheckout(selectedProduct.paymentLink)} style={{ padding: '8px 16px', backgroundColor: '#ef4444', color: 'white', border: 'none', borderRadius: '4px', cursor: 'pointer' }}>
+            {selectedProduct.paymentLink.startsWith('https://buy.stripe.com/') ? 'Order Now' : 'Get in touch'}
+          </button>
         </div>
       )}
     </section>
