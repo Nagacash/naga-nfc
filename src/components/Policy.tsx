@@ -39,6 +39,12 @@ const Policy: React.FC<PolicyProps> = ({ onBack }) => {
             <p>
               We use cookies and similar tracking technologies to track the activity on Our Service and store certain information. Tracking technologies used are beacons, tags, and scripts to collect and track information and to improve and analyze Our Service. The technologies We use may include Cookies or Browser Cookies. A cookie is a small file placed on Your Device.
             </p>
+            <h2 className="text-2xl font-bold text-white pt-4">Refund and Replacement Policy</h2>
+            <p>
+              All sales are final. Once an order is purchased and received, refunds are not available.
+              Replacements will only be provided if the cards are damaged upon arrival, or if they do not work en masse due to manufacturing defects.
+              Please contact us at chosenfewrecords@hotmail.de with details and photographic evidence of any damaged or non-functional items for a replacement.
+            </p>
             <h2 className="text-2xl font-bold text-white pt-4">Contact Us</h2>
             <p>
               If you have any questions about this Privacy Policy, You can contact us:

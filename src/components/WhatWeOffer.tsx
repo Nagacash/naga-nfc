@@ -71,7 +71,7 @@ const BundleProducts: React.FC = () => {
       specs: ["Material: PVC", "Size: 85.5*54mm (Credit Card)", "Thickness: 0.86mm", "Chip: NTAG213"],
       note: "Minimum order: 100 pcs",
       imageUrl: img6,
-      paymentLink: "#", // No direct payment link for this product
+      paymentLink: "mailto:chosenfewrecords@hotmail.de",
       children: (
         <div className="pt-4 border-t border-brand-gray/50">
             <p className="text-sm font-semibold text-white mb-2 text-left">Link any music to your cards:</p>
@@ -89,7 +89,7 @@ const BundleProducts: React.FC = () => {
       specs: ["Material: PVC", "Size: 85.5*54mm (Credit Card)", "Thickness: 0.86mm", "Chip: NTAG213"],
       note: "Minimum order: 100 pcs",
       imageUrl: img2,
-      paymentLink: "#", // No direct payment link for this product
+      paymentLink: "mailto:chosenfewrecords@hotmail.de",
     },
     {
       icon: <StandIcon className="w-8 h-8 text-brand-red" />,
@@ -97,7 +97,7 @@ const BundleProducts: React.FC = () => {
       description: "A prominent and stylish way to prompt customer interaction. Perfect for reception desks, restaurant tables, and retail counters.",
       specs: ["Price: 15 € / piece", "Material: PVC", "Size: 70*105mm + 50mm fold", "Thickness: 1.3mm", "Chip: NTAG213"],
       imageUrl: img3,
-      paymentLink: "#", // No direct payment link for this product
+      paymentLink: "mailto:chosenfewrecords@hotmail.de",
     },
   ];
 
@@ -130,7 +130,7 @@ const BundleProducts: React.FC = () => {
           <h3>{selectedProduct.title}</h3>
           <p>{selectedProduct.description}</p>
           <button onClick={handleCloseModal} style={{ marginRight: '10px', padding: '8px 16px', backgroundColor: '#ccc', border: 'none', borderRadius: '4px', cursor: 'pointer' }}>Close</button>
-          <button onClick={() => handleCheckout(selectedProduct.paymentLink)} style={{ padding: '8px 16px', backgroundColor: '#ef4444', color: 'white', border: 'none', borderRadius: '4px', cursor: 'pointer' }}>Buy Now</button>
+          <button onClick={() => handleCheckout(selectedProduct.paymentLink)} style={{ padding: '8px 16px', backgroundColor: '#ef4444', color: 'white', border: 'none', borderRadius: '4px', cursor: 'pointer' }}>Get in touch</button>
         </div>
       )}
     </section>
