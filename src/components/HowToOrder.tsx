@@ -2,8 +2,8 @@ import React from 'react';
 
 const HowToOrder: React.FC = () => {
   return (
-    <section id="how-to-order" className="py-20 bg-brand-dark text-white">
-      <div className="container mx-auto px-6 text-center">
+    <section id="how-to-order" className="py-20 bg-brand-dark text-white px-4 sm:px-6"> {/* Added px-4 for mobile, sm:px-6 for larger */}
+      <div className="container mx-auto text-center"> {/* Removed px-6 here as it's now on section */}
         <h2 className="text-3xl md:text-4xl font-display text-white mb-8">How to Order</h2>
         <div className="max-w-3xl mx-auto text-lg leading-relaxed">
           <p className="mb-4">

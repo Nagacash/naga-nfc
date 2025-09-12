@@ -24,8 +24,8 @@ const Step: React.FC<StepProps> = ({ icon, title, description }) => (
 
 const HowItWorks: React.FC = () => {
   return (
-    <section id="how" className="py-20 bg-black/50">
-      <div className="container mx-auto px-6">
+    <section id="how" className="py-20 bg-black/50 px-4 sm:px-6"> {/* Added px-4 for mobile, sm:px-6 for larger */}
+      <div className="container mx-auto"> {/* Removed px-6 here as it's now on section */}
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-display text-white mb-4">Simple, Instant, Magical</h2>
           <p className="text-gray-400 max-w-2xl mx-auto">

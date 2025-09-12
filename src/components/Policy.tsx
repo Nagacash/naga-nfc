@@ -6,8 +6,8 @@ interface PolicyProps {
 
 const Policy: React.FC<PolicyProps> = ({ onBack }) => {
   return (
-    <div className="bg-brand-dark min-h-screen text-gray-300 font-sans antialiased">
-      <div className="container mx-auto px-6 py-12 md:py-20">
+    <section className="bg-brand-dark min-h-screen text-gray-300 font-sans antialiased px-4 sm:px-6"> {/* Changed to section and added padding */}
+      <div className="container mx-auto py-12 md:py-20"> {/* Removed px-6 */}
         <button onClick={onBack} className="text-brand-red hover:underline mb-8 text-lg">
           &larr; Back to Home
         </button>
@@ -57,7 +57,7 @@ const Policy: React.FC<PolicyProps> = ({ onBack }) => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

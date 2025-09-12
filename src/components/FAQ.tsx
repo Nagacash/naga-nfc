@@ -67,8 +67,8 @@ const FAQ: React.FC = () => {
     };
 
     return (
-        <section id="faq" className="py-20 bg-brand-dark">
-            <div className="container mx-auto px-6">
+        <section id="faq" className="py-20 bg-brand-dark px-4 sm:px-6"> {/* Added px-4 for mobile, sm:px-6 for larger */}
+            <div className="container mx-auto"> {/* Removed px-6 here as it's now on section */}
                 <div className="text-center mb-12">
                     <h2 className="text-3xl md:text-4xl font-display text-white mb-4 flex items-center justify-center gap-3">
                         <SparklesIcon className="w-8 h-8 text-brand-red" />

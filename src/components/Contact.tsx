@@ -3,8 +3,8 @@ import { MailIcon, InstagramIcon } from './Icons';
 
 const Contact: React.FC = () => {
   return (
-    <section id="contact" className="py-20 bg-brand-dark">
-      <div className="container mx-auto px-6">
+    <section id="contact" className="py-20 bg-brand-dark px-4 sm:px-6"> {/* Added px-4 for mobile, sm:px-6 for larger */}
+      <div className="container mx-auto"> {/* Removed px-6 here as it's now on section */}
         <div className="grid md:grid-cols-1 gap-12 items-center">
           
           {/* Right Side: Text Content */}

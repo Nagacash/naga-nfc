@@ -57,8 +57,8 @@ const CTA: React.FC = () => {
   const BlinkingCursor = () => <span className="animate-pulse text-3xl">|</span>;
 
   return (
-    <section ref={sectionRef} className="py-20 bg-brand-red">
-      <div className="container mx-auto px-6 text-center">
+    <section ref={sectionRef} className="py-20 bg-brand-red px-4 sm:px-6"> {/* Added px-4 for mobile, sm:px-6 for larger */}
+      <div className="container mx-auto text-center"> {/* Removed px-6 here as it's now on section */}
         <h2 className="text-3xl md:text-4xl font-display text-white mb-4 min-h-[84px] md:min-h-[56px] flex justify-center items-center">
           <span>{animatedTitle}</span>
           {!isTitleDone && hasAnimated.current && <BlinkingCursor />}
