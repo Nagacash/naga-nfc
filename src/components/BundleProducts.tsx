@@ -31,8 +31,8 @@ const BundleProducts: React.FC = () => {
     {
       icon: <MusicIcon className="w-8 h-8 text-brand-red" />,
       title: "Digital ALBUM CARDS - 100 pcs Bundle",
-      description: "100 pcs Bundle: The ideal starter pack for independent artists and filmmakers. Perfect for limited-edition music albums, exclusive movie pre-releases, or as a premium giveaway to a dedicated fan base. Digital ALBUM CARDS - 100 pcs Bundle. Plug into your phone instant access",
-      specs: ["Price: 529 €", "USB - PVC"],
+      description: "100 pcs Bundle: The ideal starter pack for independent artists and filmmakers. Perfect for limited-edition music albums, exclusive movie pre-releases, or as a premium giveaway to a dedicated fan base. Digital ALBUM CARDS - 100 pcs Bundle. Plug into your phone instant access. Disc Capacity: 32Gb. Material: PVC. Size: 85.5*54mm (Credit Card). Thickness: 0.86mm. Chip: NTAG213",
+      specs: ["Price: 529 €", "USB - PVC", "Disc Capacity: 32Gb"],
       imageUrl: "/bundle.png", // Assuming bundle.png is in the public folder
       paymentLink: "https://buy.stripe.com/dRmbJ2aak0eDf97fBI43S01",
       children: (
@@ -49,8 +49,8 @@ const BundleProducts: React.FC = () => {
     {
       icon: <MusicIcon className="w-8 h-8 text-brand-red" />,
       title: "Digital ALBUM CARDS - 500 pcs Bundle",
-      description: "The perfect scalable solution for wider releases and distribution at industry events. Ideal for distributing full movie collections, software, or entire album catalogs at conferences, conventions, or tradeshows.",
-      specs: ["Price: 1999 €", "USB - PVC"],
+      description: "The perfect scalable solution for wider releases and distribution at industry events. Ideal for distributing full movie collections, software, or entire album catalogs at conferences, conventions, or tradeshows. Disc Capacity: 32Gb. Material: PVC. Size: 85.5*54mm (Credit Card). Thickness: 0.86mm. Chip: NTAG213",
+      specs: ["Price: 1999 €", "USB - PVC", "Disc Capacity: 32Gb"],
       imageUrl: "/bundle.png", // Assuming bundle.png is in the public folder
       paymentLink: "https://buy.stripe.com/9B6aEYcisgdB6CBaho43S02",
       children: (
@@ -67,8 +67,8 @@ const BundleProducts: React.FC = () => {
     {
       icon: <MusicIcon className="w-8 h-8 text-brand-red" />,
       title: "Digital ALBUM CARDS - 1000 pcs Bundle",
-      description: "Our most cost-effective package for large-scale content distribution. Take advantage of our best price per unit for major album launches, blockbuster movie premieres, or distributing digital media on a mass commercial scale.",
-      specs: ["Price: 1799 €", "USB - PVC"],
+      description: "Our most cost-effective package for large-scale content distribution. Take advantage of our best price per unit for major album launches, blockbuster movie premieres, or distributing digital media on a mass commercial scale. Disc Capacity: 32Gb. Material: PVC. Size: 85.5*54mm (Credit Card). Thickness: 0.86mm. Chip: NTAG213",
+      specs: ["Price: 1799 €", "USB - PVC", "Disc Capacity: 32Gb"],
       imageUrl: "/bundle.png", // Assuming bundle.png is in the public folder
       paymentLink: "https://buy.stripe.com/3cIaEYeqAaTh4ut9dk43S03",
       children: (
@@ -96,7 +96,11 @@ const BundleProducts: React.FC = () => {
             <ProductCard
               key={index}
               {...product}
-              onCardClick={() => handleProductClick(product)}
+              specs={product.specs} // Explicitly pass specs
+              onCardClick={() => {
+                setSelectedProduct(product);
+                console.log("Selected product:", product);
+              }}
             />
           ))}
         </div>

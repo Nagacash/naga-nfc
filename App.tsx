@@ -15,6 +15,7 @@ import Contact from './src/components/Contact';
 import Footer from './src/components/Footer';
 import CookieBanner from './src/components/CookieBanner';
 import Policy from './src/components/Policy';
+import DoTheMath from './src/components/DoTheMath';
 
 
 const App: React.FC = () => {
@@ -103,6 +104,7 @@ const App: React.FC = () => {
        
         <HowUSBWorks />
         <HowItWorks />
+        <DoTheMath />
         <NFCExplanation />
         <GoogleReviewsExplanation />
         <MonetizeMusic />
