@@ -70,7 +70,7 @@ const BundleProducts: React.FC = () => {
     {
       icon: <MusicIcon className="w-8 h-8 text-brand-red" />,
       title: "Album Cards for Musicians",
-      description: "Give your fans a tangible product in the streaming era. Link your card directly to your new album, merch store, or exclusive content.",
+      description: "A direct-to-fan revenue stream and a collectible item for your most loyal supporters. Give your fans a tangible product in the streaming era. Link your card directly to your new album, merch store, or exclusive content.",
       specs: ["Material: PVC", "Size: 85.5*54mm (Credit Card)", "Thickness: 0.86mm", "Chip: NTAG213"],
       note: "Minimum order: 100 pcs",
       imageUrl: img6,

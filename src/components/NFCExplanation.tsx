@@ -5,14 +5,14 @@ const NFCExplanation: React.FC = () => {
     <section className="py-20 bg-brand-dark px-4 sm:px-6"> {/* Added section and padding */}
       <div className="container mx-auto text-center"> {/* Added container */}
         <div className="mb-16"> {/* Original div content */}
-          <h3 className="pt-12 text-2xl font-bold text-brand-red mb-4 text-center">How NFC Tap Works</h3>
-          <p className="text-gray-300 max-w-3xl mx-auto leading-relaxed">
-            NFC (Near Field Communication) is a short-range wireless technology that allows two devices to communicate when they are brought within a few centimeters of each other. For NFC cards, it's incredibly simple:
+          <h3 class="pt-12 text-2xl font-bold text-brand-red mb-4 text-center">NFC: The Tech Behind Direct-to-Fan Connections</h3>
+          <p class="text-gray-300 max-w-3xl mx-auto leading-relaxed">
+          NFC (Near Field Communication) is the magic that makes our cards work. It’s a cutting-edge wireless technology that allows for instant communication between our cards and any modern smartphone. Here’s why it’s a game-changer for artists and fan engagement:
           </p>
-          <ul className="list-disc list-inside text-gray-300 max-w-2xl mx-auto mt-4 text-left space-y-2">
-            <li><strong>Tap:</strong> A user simply taps their NFC-enabled smartphone (most modern smartphones are) against an NFC card or tag.</li>
-            <li><strong>Connect:</strong> The NFC chip in the card instantly communicates with the phone.</li>
-            <li><strong>Action:</strong> Without needing to open an app or type a URL, the phone is directed to perform a specific action – open a website, play a song, display contact info, or prompt a Google review. It's seamless, fast, and intuitive.</li>
+          <ul class="list-disc list-inside text-gray-300 max-w-2xl mx-auto mt-4 text-left space-y-2">
+            <li><strong>Instant Gratification:</strong> A simple tap is all it takes. Fans can instantly access your exclusive content, new album, or merch store. This frictionless experience is key to capturing and retaining their attention.</li>
+            <li><strong>No Apps Needed:</strong> Unlike QR codes or other technologies, NFC is native to most smartphones. This means no clunky apps to download, ensuring a smooth and immediate user experience.</li>
+            <li><strong>Endless Possibilities:</strong> NFC technology is incredibly versatile. Link your cards to a secret music video, a private Discord server, or a hidden page on your website. The creative marketing possibilities for artists are limitless.</li>
           </ul>
         </div>
       </div>
