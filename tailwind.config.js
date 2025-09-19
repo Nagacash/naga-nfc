@@ -8,11 +8,11 @@ export default {
   theme: {
   	extend: {
   		colors: {
-  			'brand-dark': '#1a1a1a',
-  			'brand-red': '#ef4444',
-  			'brand-gray': '#3f3f46',
-  			background: 'hsl(var(--background))',
-  			foreground: 'hsl(var(--foreground))',
+  			'brand-primary-base': '#2C2C2C', // Rich, deep charcoal grey
+  			'brand-secondary': '#F5F5DC', // Muted, warm off-white (light tan)
+  			'brand-accent': '#FF6F61', // Vibrant, energetic coral
+  			background: '#2C2C2C',
+  			foreground: '#F5F5DC',
   			card: {
   				DEFAULT: 'hsl(var(--card))',
   				foreground: 'hsl(var(--card-foreground))'
@@ -68,7 +68,8 @@ export default {
   			fadeInUp: 'fadeInUp 1s ease-out forwards'
   		},
   		boxShadow: {
-  			'glow-red': '0 0 15px rgba(239, 68, 68, 0.7)'
+  			'glow-red': '0 0 15px rgba(239, 68, 68, 0.7)',
+  			'glow-accent': '0 0 15px rgba(0, 255, 255, 0.7)' // Bright Cyan Glow
   		},
   		borderRadius: {
   			lg: 'var(--radius)',

@@ -43,11 +43,11 @@ const TestimonialCard: React.FC<TestimonialCardProps> = ({ quote, name, role, av
 
 const Testimonials: React.FC = () => {
   return (
-    <section id="testimonials" className="py-20 bg-black/50 px-4 sm:px-6"> {/* Added px-4 for mobile, sm:px-6 for larger */}
+    <section id="testimonials" className="py-20 bg-brand-primary-base/50 px-4 sm:px-6"> {/* Added px-4 for mobile, sm:px-6 for larger */}
       <div className="container mx-auto"> {/* Removed px-6 here as it's now on section */}
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-display text-white mb-4">What Our Clients Say</h2>
-          <p className="text-gray-400 max-w-2xl mx-auto">
+          <h2 className="text-3xl md:text-4xl font-display text-foreground mb-4">What Our Clients Say</h2>
+          <p className="text-foreground max-w-2xl mx-auto">
             Real feedback from real partners who have transformed their engagement with NAGA NFC.
           </p>
         </div>

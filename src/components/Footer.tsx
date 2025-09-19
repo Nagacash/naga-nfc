@@ -34,37 +34,37 @@ const Footer: React.FC<FooterProps> = ({ onPolicyClick }) => {
   };
 
   return (
-    <footer className="bg-black py-8">
-      <div className="container mx-auto px-6 text-center text-gray-500">
-        <div className="mb-12 pt-8 border-t border-gray-700">
-          <h2 className="text-3xl md:text-4xl font-display text-white mb-12">Why NFC? Unlock the Power of Tap</h2>
+    <footer className="bg-brand-primary-base py-8">
+      <div className="container mx-auto px-6 text-foreground">
+        <div className="mb-12 pt-8 border-t border-brand-secondary">
+          <h2 className="text-3xl md:text-4xl font-display text-foreground mb-12">Why NFC? Unlock the Power of Tap</h2>
         </div>
         <div className="flex justify-center items-center mb-4">
-          <LogoIcon className="w-6 h-6 text-brand-red" />
-          <span className="ml-2 text-xl font-display text-gray-300">STREAMII</span>
+          <LogoIcon className="w-6 h-6 text-brand-secondary" />
+          <span className="ml-2 text-xl font-display text-foreground">STREAMMI</span>
         </div>
         <div className="flex justify-center items-center space-x-4 mb-4">
-          <a href="https://www.instagram.com/streamii_" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-brand-red transition-colors">
+          <a href="https://www.instagram.com/naga_apparel" target="_blank" rel="noopener noreferrer" className="text-foreground hover:text-brand-accent transition-colors">
             <InstagramIcon className="w-6 h-6" />
           </a>
           
         </div>
-        <div className="flex flex-col sm:flex-row justify-center items-center gap-2 sm:gap-4 mb-2 text-sm text-gray-400">
-          <span>&copy; {new Date().getFullYear()} STREAMII. All rights reserved.</span>
+        <div className="flex flex-col sm:flex-row justify-center items-center gap-2 sm:gap-4 mb-2 text-sm text-foreground">
+          <span>&copy; {new Date().getFullYear()} STREAMMI. All rights reserved.</span>
           <span className="hidden sm:inline">|</span>
-          <button onClick={onPolicyClick} className="hover:text-brand-red transition-colors">
+          <button onClick={onPolicyClick} className="hover:text-brand-accent transition-colors">
               Privacy Policy
           </button>
         </div>
-        <p className="text-sm text-gray-400 mt-2">We ship worldwide</p>
-        <p className="text-sm text-gray-400 mt-2">Powered by <a href="https://www.instagram.com/naga_apparel" target="_blank" rel="noopener noreferrer" className="hover:text-brand-red transition-colors">Naga Apparel</a></p>
+        <p className="text-sm text-foreground mt-2">We ship worldwide</p>
+        <p className="text-sm text-foreground mt-2">Powered by <a href="https://www.instagram.com/naga_apparel" target="_blank" rel="noopener noreferrer" className="hover:text-brand-accent transition-colors">STREAMMI</a></p>
         
       </div>
       
       {/* Scroll to top button */}
       <button
         onClick={scrollToTop}
-        className={`fixed bottom-5 right-5 bg-brand-red text-white w-12 h-12 rounded-full flex items-center justify-center shadow-lg hover:bg-red-700 transition-all duration-300 z-50 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'}`}
+        className={`fixed bottom-5 right-5 bg-brand-accent text-white w-12 h-12 rounded-full flex items-center justify-center shadow-lg hover:bg-brand-secondary transition-all duration-300 z-50 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'}`}
         aria-label="Go to top"
         style={{ pointerEvents: isVisible ? 'auto' : 'none' }}
       >

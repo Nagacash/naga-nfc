@@ -24,29 +24,29 @@ const Step: React.FC<StepProps> = ({ icon, title, description }) => (
 
 const HowUSBWorks: React.FC = () => {
   return (
-    <section id="how-usb" className="py-20 bg-black/50 px-4 sm:px-6"> {/* Added px-4 for mobile, sm:px-6 for larger */}
+    <section id="how-usb" className="py-20 bg-brand-primary-base/50 px-4 sm:px-6"> {/* Added px-4 for mobile, sm:px-6 for larger */}
       <div className="container mx-auto"> {/* Removed px-6 here as it's now on section */}
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-display text-white mb-4">NFC + USB: The Ultimate Hybrid for Content & Engagement</h2>
-          <p className="text-gray-400 max-w-2xl mx-auto">
+          <h2 className="text-3xl md:text-4xl font-display text-foreground mb-4">NFC + USB: The Ultimate Hybrid for Content & Engagement</h2>
+          <p className="text-foreground max-w-2xl mx-auto">
             NagaApparel's cards offer a powerful dual approach: instant NFC tap for web links, and direct USB connection for high-quality content storage and access. This hybrid functionality provides unparalleled versatility and a clear competitive advantage.
           </p>
         </div>
         <div className="relative">
-          <div className="hidden md:block absolute top-1/2 left-0 right-0 h-0.5 bg-brand-gray/50 transform -translate-y-1/2"></div>
+          <div className="hidden md:block absolute top-1/2 left-0 right-0 h-0.5 bg-brand-primary-base/50 transform -translate-y-1/2"></div>
           <div className="relative grid grid-cols-1 md:grid-cols-3 gap-8">
             <Step
-              icon={<LinkIcon className="w-12 h-12 text-brand-red" />}
+              icon={<LinkIcon className="w-12 h-12 text-brand-secondary" />}
               title="1. Direct Connection"
               description="Simply plug the USB card into any compatible device (computer, smartphone, tablet). No internet needed."
             />
             <Step
-              icon={<MusicIcon className="w-12 h-12 text-brand-red" />}
+              icon={<MusicIcon className="w-12 h-12 text-brand-secondary" />}
               title="2. Access High-Quality Content"
               description="Instantly access and download high-fidelity audio, 4K video, large software files, or any digital content directly from the card's storage."
             />
             <Step
-              icon={<EngageIcon className="w-12 h-12 text-brand-red" />}
+              icon={<EngageIcon className="w-12 h-12 text-brand-secondary" />}
               title="3. Offline & Secure Access"
               description="Your audience enjoys your content offline, anytime, anywhere. The USB acts as secure, physical storage, offering verifiable authenticity and a premium experience."
             />

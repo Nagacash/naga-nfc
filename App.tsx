@@ -95,7 +95,7 @@ const App: React.FC = () => {
   }
 
   return (
-    <div className={`bg-brand-dark text-gray-200 font-sans antialiased transition-all duration-300 ${showBanner ? 'pb-36' : ''}`}>
+    <div className={`bg-brand-primary-base text-foreground font-sans antialiased transition-all duration-300 ${showBanner ? 'pb-36' : ''}`}>
       <Header />
       <main>
         <Hero />

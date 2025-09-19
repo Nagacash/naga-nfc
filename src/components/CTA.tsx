@@ -57,13 +57,13 @@ const CTA: React.FC = () => {
   const BlinkingCursor = () => <span className="animate-pulse text-3xl">|</span>;
 
   return (
-    <section ref={sectionRef} className="py-20 bg-brand-red px-4 sm:px-6"> {/* Added px-4 for mobile, sm:px-6 for larger */}
+    <section ref={sectionRef} className="py-20 bg-brand-secondary px-4 sm:px-6"> {/* Added px-4 for mobile, sm:px-6 for larger */}
       <div className="container mx-auto text-center"> {/* Removed px-6 here as it's now on section */}
-        <h2 className="text-3xl md:text-4xl font-display text-white mb-4 min-h-[84px] md:min-h-[56px] flex justify-center items-center">
+        <h2 className="text-3xl md:text-4xl font-display text-brand-primary-base mb-4 min-h-[84px] md:min-h-[56px] flex justify-center items-center">
           <span>{animatedTitle}</span>
           {!isTitleDone && hasAnimated.current && <BlinkingCursor />}
         </h2>
-        <p className="text-white/80 max-w-2xl mx-auto mb-8 min-h-[72px]">
+        <p className="text-brand-primary-base/80 max-w-2xl mx-auto mb-8 min-h-[72px]">
           <span>{animatedDesc}</span>
           {isTitleDone && !isDescDone && <BlinkingCursor />}
         </p>
@@ -71,7 +71,7 @@ const CTA: React.FC = () => {
             {isDescDone && (
             <a 
               href="#contact" 
-              className="bg-white text-black font-bold py-3 px-8 rounded-full text-lg hover:bg-gray-300 transition-all duration-300 transform hover:scale-105 inline-block animate-fadeInUp"
+              className="bg-brand-accent text-brand-primary-base font-bold py-3 px-8 rounded-full text-lg hover:bg-brand-secondary transition-all duration-300 transform hover:scale-105 inline-block animate-fadeInUp"
               style={{ animationDuration: '0.5s' }}
             >
               Contact Us Now
