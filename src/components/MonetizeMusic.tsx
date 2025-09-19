@@ -5,16 +5,17 @@ const MonetizeMusic: React.FC = () => {
     <section class="py-20 bg-brand-dark px-4 sm:px-6"> {/* Added section and padding */}
       <div class="container mx-auto text-center"> {/* Added container */}
         <div> {/* Original div content */}
-          <h3 class="text-2xl font-bold text-brand-red mb-4 text-center">Higher Revenue for Artists, Deeper Connection with Fans</h3>
+          <h3 class="text-2xl font-bold text-brand-red mb-4 text-center">NagaApparel: Empowering Artists with Direct Revenue & Deeper Fan Loyalty</h3>
           <p class="text-gray-300 max-w-3xl mx-auto leading-relaxed">
-          Are you ready to revolutionize how you monetize your music? Our NFC USB Cards are your ticket to a more profitable and engaging music career. Move beyond the limitations of streaming and forge a direct, meaningful connection with your audience:
+          In an evolving music landscape, NagaApparel provides artists with innovative marketing channels and direct revenue streams. Move beyond traditional platforms and forge a more profitable, engaging career:
           </p>
           <ul class="list-disc list-inside text-gray-300 max-w-2xl mx-auto mt-4 text-left space-y-2">
-            <li><strong>Maximize Your Earnings:</strong> By selling NFC USB Cards directly to your fans, you bypass the minimal payouts from streaming services. Set your own price and retain a significantly larger portion of the revenue.</li>
-            <li><strong>Create True Collectibles:</strong> In a digital-first world, fans crave tangible, exclusive items. Our NFC USB Cards are premium, physical products that your supporters will be proud to own, collect, and showcase.</li>
-            <li><strong>Offer Exclusive Content:</strong> Reward your most dedicated fans with content they can’t get anywhere else. Use the cards to distribute unreleased tracks, high-quality audio files, behind-the-scenes videos, or personal messages.</li>
-            <li><strong>Boost Merchandise Sales:</strong> Bundle the NFC USB Cards with other merchandise like t-shirts, posters, or vinyl records to create high-value packages that drive more sales.</li>
-            <li><strong>Direct-to-Fan Engagement:</strong> Each card is a direct link to your ecosystem. Update the content linked to the card at any time to keep your audience engaged with new releases, tour dates, or special announcements.</li>
+            <li><strong>Maximize Direct Revenue:</strong> Sell NFC USB Cards directly to your fanbase, bypassing intermediaries and significantly increasing your profit margins compared to streaming royalties.</li>
+            <li><strong>Cultivate Enhanced Fan Loyalty:</strong> Offer unique, tangible collectibles that strengthen the bond with your audience, turning casual listeners into dedicated patrons.</li>
+            <li><strong>Unlock Innovative Marketing Channels:</strong> Utilize NFC technology for creative campaigns, exclusive content drops, and interactive experiences that capture attention and drive engagement.</li>
+            <li><strong>Exclusive Content Distribution:</strong> Deliver unreleased tracks, high-quality audio, behind-the-scenes footage, or digital art directly to cardholders, creating a sense of exclusivity and value.</li>
+            <li><strong>Seamless Merchandise Integration:</strong> Bundle NFC USB Cards with other merchandise to create premium packages, boosting overall sales and perceived value.</li>
+            <li><strong>Verifiable Authenticity:</strong> Each card can serve as a unique, verifiable item, ensuring fans receive authentic, official merchandise directly from you.</li>
           </ul>
         </div>
       </div>

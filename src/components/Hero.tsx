@@ -19,8 +19,14 @@ const Hero: React.FC = () => {
         <div className="absolute inset-0 bg-black/60"></div>
       </div>
 
-      <div className="relative z-10 px-6">
-        <TypewriterText text="Higher Revenue for Artists, Exclusive Collectibles for Fans." className="pt-12 font-display text-5xl md:text-7xl text-white leading-tight mb-6" />
+      <div className="relative z-10 px-6 max-w-4xl mx-auto">
+        <TypewriterText text="Streammi: Revolutionizing Fan Engagement & Artist Revenue with Smart NFC/USB Apparel." className="pt-12 font-display text-5xl md:text-7xl text-white leading-tight mb-6" />
+        <p className="text-xl md:text-2xl text-gray-300 mb-10 leading-relaxed">
+          Empower artists with direct revenue streams, build deeper fan loyalty, and unlock innovative marketing channels with our cutting-edge NFC and USB solutions.
+        </p>
+        <a href="#offer" className="bg-brand-red text-white font-bold py-4 px-10 rounded-full text-xl uppercase tracking-wide hover:bg-brand-red-dark transition-colors duration-300 shadow-lg">
+          Explore Our Solutions
+        </a>
       </div>
     </section>
   );

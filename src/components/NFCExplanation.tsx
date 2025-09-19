@@ -5,14 +5,16 @@ const NFCExplanation: React.FC = () => {
     <section className="py-20 bg-brand-dark px-4 sm:px-6"> {/* Added section and padding */}
       <div className="container mx-auto text-center"> {/* Added container */}
         <div className="mb-16"> {/* Original div content */}
-          <h3 class="pt-12 text-2xl font-bold text-brand-red mb-4 text-center">NFC: The Tech Behind Direct-to-Fan Connections</h3>
+          <h3 class="pt-12 text-2xl font-bold text-brand-red mb-4 text-center">NFC: Powering Innovative Marketing & Enhanced Customer Loyalty</h3>
           <p class="text-gray-300 max-w-3xl mx-auto leading-relaxed">
-          NFC (Near Field Communication) is the magic that makes our cards work. It’s a cutting-edge wireless technology that allows for instant communication between our cards and any modern smartphone. Here’s why it’s a game-changer for artists and fan engagement:
+          NFC (Near Field Communication) is the cutting-edge technology at the heart of NagaApparel’s solutions. It creates a seamless, direct connection between your brand and your audience, unlocking powerful new avenues for innovative marketing and enhanced customer loyalty:
           </p>
           <ul class="list-disc list-inside text-gray-300 max-w-2xl mx-auto mt-4 text-left space-y-2">
-            <li><strong>Instant Gratification:</strong> A simple tap is all it takes. Fans can instantly access your exclusive content, new album, or merch store. This frictionless experience is key to capturing and retaining their attention.</li>
-            <li><strong>No Apps Needed:</strong> Unlike QR codes or other technologies, NFC is native to most smartphones. This means no clunky apps to download, ensuring a smooth and immediate user experience.</li>
-            <li><strong>Endless Possibilities:</strong> NFC technology is incredibly versatile. Link your cards to a secret music video, a private Discord server, or a hidden page on your website. The creative marketing possibilities for artists are limitless.</li>
+            <li><strong>Direct & Instant Engagement:</strong> A simple tap instantly connects customers to your content, promotions, or social media, eliminating friction and boosting interaction rates.</li>
+            <li><strong>Innovative Marketing Channels:</strong> Leverage NFC for dynamic campaigns, product launches, and interactive experiences that stand out and create memorable brand touchpoints.</li>
+            <li><strong>Build Enhanced Customer Loyalty:</strong> Provide exclusive content, personalized experiences, and direct access to your brand, fostering a deeper connection and encouraging repeat engagement.</li>
+            <li><strong>Effortless Information Delivery:</strong> Share product details, authenticity verification, or behind-the-scenes stories instantly, enhancing transparency and trust.</li>
+            <li><strong>No Apps, No Hassle:</strong> NFC works natively with most modern smartphones, ensuring a smooth and immediate user experience without requiring app downloads.</li>
           </ul>
         </div>
       </div>

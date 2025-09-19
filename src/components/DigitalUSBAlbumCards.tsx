@@ -5,16 +5,17 @@ const DigitalUSBAlbumCards: React.FC = () => {
     <section className="py-20 bg-brand-dark px-6 sm:px-8"> {/* Increased padding for mobile and larger */}
       <div className="container mx-auto text-center"> {/* Added container */}
         <div className="mb-16"> {/* Original div content */}
-          <h3 class="pt-12 text-2xl font-bold text-brand-red mb-4 text-center">Own a Piece of the Artist’s Journey: The Ultimate Fan Collectible</h3>
+          <h3 class="pt-12 text-2xl font-bold text-brand-red mb-4 text-center">Digital USB Album Cards: The Hybrid Advantage for Fans</h3>
           <p class="text-gray-300 max-w-3xl mx-auto leading-relaxed overflow-hidden text-wrap">
-          As a fan, you want to feel connected to the artists you love. Our Digital USB Album Cards offer a unique and tangible way to be part of their world. It’s more than just content; it’s a collectible that deepens your connection:
+          NagaApparel’s Digital USB Album Cards offer fans the best of both worlds: the instant connectivity of NFC and the robust content delivery of USB. This hybrid approach provides an unparalleled interactive experience and a tangible connection to your favorite artists:
           </p>
           <ul class="list-disc list-inside text-gray-300 max-w-2xl mx-auto mt-4 text-left space-y-2 overflow-hidden text-wrap">
-            <li><strong>A True Collector’s Item:</strong> Each card is a physical, beautifully designed artifact that you can hold, display, and cherish. It’s a statement of your support for the artist and a valuable addition to any collection.</li>
-            <li><strong>Exclusive, High-Quality Content:</strong> Get access to content in its purest form. Enjoy uncompressed audio, 4K videos, and other digital media without the limitations of streaming platforms.</li>
-            <li><strong>Instant & Offline Access:</strong> No need for an internet connection. Simply plug the card into your device and enjoy your content anytime, anywhere.</li>
-            <li><strong>Be Part of an Exclusive Club:</strong> Owning a Digital USB Album Card often comes with special perks, like early access to tickets, private online communities, or unannounced content drops.</li>
-            <li><strong>The Perfect Gift for a Fellow Fan:</strong> These cards make for a thoughtful and unique gift that any music or film enthusiast will appreciate.</li>
+            <li><strong>Dual Access, Ultimate Convenience:</strong> Use NFC for quick links to online content or plug in the USB for direct, high-fidelity access to large files like uncompressed audio and 4K video.</li>
+            <li><strong>Guaranteed Product Transparency & Authenticity:</strong> These physical cards provide direct, verifiable access to content, ensuring you receive authentic, high-quality digital media.</li>
+            <li><strong>Exclusive, High-Quality Content:</strong> Enjoy content in its purest form, often exclusive to cardholders, without streaming limitations.</li>
+            <li><strong>A True Collectible with Tangible Value:</strong> Own a beautifully designed physical artifact that serves as a lasting memento and a statement of your support for the artist.</li>
+            <li><strong>Offline Availability, Anytime, Anywhere:</strong> With the USB functionality, enjoy your purchased content without an internet connection, perfect for travel or areas with limited connectivity.</li>
+            <li><strong>Direct Connection to the Artist:</strong> Feel a closer bond with your favorite creators through a unique, physical product that bridges the gap between digital and tangible.</li>
           </ul>
         </div>
       </div>

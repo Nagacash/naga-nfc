@@ -40,7 +40,7 @@ const BundleProducts: React.FC = () => {
     {
       icon: <MusicIcon className="w-8 h-8 text-brand-red" />,
       title: "100 pcs Bundle",
-      description: "The ideal starter pack for independent artists and filmmakers. Perfect for limited-edition music albums, exclusive movie pre-releases, or as a premium giveaway to a dedicated fan base.",
+      description: "The ideal starter pack for independent artists and filmmakers to launch innovative marketing campaigns and build enhanced fan loyalty. Perfect for limited-edition music albums, exclusive movie pre-releases, or as a premium giveaway to a dedicated fan base.",
       specs: ["Material: PVC", "Size: 85.5*54mm (Credit Card)", "Thickness: 0.86mm", "USB", "Disc Capacity: 32Gb"],
       note: "Limited Edition",
       imageUrl: bundleImage,
@@ -51,7 +51,7 @@ const BundleProducts: React.FC = () => {
     {
       icon: <MusicIcon className="w-8 h-8 text-brand-red" />,
       title: "500 pcs Bundle",
-      description: "The perfect scalable solution for wider releases and distribution at industry events. Ideal for distributing full movie collections, software, or entire album catalogs at conferences, conventions, or tradeshows.",
+      description: "The perfect scalable solution for wider releases and distribution at industry events, enabling innovative marketing and deeper fan engagement. Ideal for distributing full movie collections, software, or entire album catalogs at conferences, conventions, or tradeshows.",
       specs: ["Material: PVC", "Size: 85.5*54mm (Credit Card)", "Thickness: 0.86mm", "USB", "Disc Capacity: 32Gb"],
       note: "Bulk Discount",
       imageUrl: bundleImage,
@@ -62,7 +62,7 @@ const BundleProducts: React.FC = () => {
     {
       icon: <MusicIcon className="w-8 h-8 text-brand-red" />,
       title: "1,000 pcs Bundle",
-      description: "Our most cost-effective package for large-scale content distribution. Take advantage of our best price per unit for major album launches, blockbuster movie premieres, or distributing digital media on a mass commercial scale.",
+      description: "Our most cost-effective package for large-scale content distribution, maximizing direct revenue and market reach. Take advantage of our best price per unit for major album launches, blockbuster movie premieres, or distributing digital media on a mass commercial scale.",
       specs: ["Material: PVC", "Size: 85.5*54mm (Credit Card)", "Thickness: 0.86mm", "USB", "Disc Capacity: 32Gb"],
       note: "Mass Distribution",
       imageUrl: bundleImage,
@@ -112,7 +112,7 @@ const BundleProducts: React.FC = () => {
       <div className="container mx-auto text-center"> {/* Removed px-6 here as it's now on section */}
         <h2 className="text-3xl md:text-4xl font-display text-white mb-4">What We Offer</h2>
         <p className="text-gray-400 max-w-2xl mx-auto mb-12">
-          Customizable NFC solutions designed to elevate your brand and engage your audience.
+          NagaApparel provides cutting-edge NFC and USB solutions designed to solve key challenges for artists and brands: enhancing customer loyalty, ensuring verifiable authenticity, and opening innovative marketing channels.
         </p>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {products.map((product, index) => (
@@ -127,8 +127,11 @@ const BundleProducts: React.FC = () => {
           ))}
         </div>
         <p className="text-white max-w-2xl mx-auto mt-12 text-xl">
-          Click on any product box to learn more and purchase your custom NFC solution!
+          Ready to transform your fan engagement and revenue? Explore our solutions or contact us for a custom quote!
         </p>
+        <a href="#contact" className="bg-brand-red text-white font-bold py-3 px-8 rounded-full hover:bg-brand-red-dark transition-colors duration-300 mt-6 inline-block">
+          Get a Custom Quote
+        </a>
       </div>
       {lightboxImage && <Lightbox imageUrl={lightboxImage} onClose={handleCloseLightbox} />}
       {selectedProduct && (

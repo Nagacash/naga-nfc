@@ -33,7 +33,8 @@ const Header: React.FC = () => {
         <div className="container mx-auto px-6 py-6 flex justify-between items-center">
           <a href="#home" className="flex items-center space-x-2">
             <img src={logo} alt="Streamii Logo" className="w-8 h-8" />
-            <span className="font-display text-3xl text-black">STREAMII</span>
+            <span className="font-display text-3xl text-black">NagaApparel</span>
+            <span className="text-xs text-gray-600 ml-2 hidden sm:inline-block">Smart NFC/USB Solutions for Creators</span>
           </a>
           <nav className="hidden md:flex space-x-8">
             <a href="#offer" className="text-gray-800 hover:text-black transition-colors duration-200">What We Offer</a>
@@ -58,8 +59,8 @@ const Header: React.FC = () => {
         <a href="#how" onClick={() => setIsMenuOpen(false)} className="text-2xl text-gray-800 hover:text-black transition-colors">How It Works</a>
         <a href="#do-the-math" onClick={() => setIsMenuOpen(false)} className="text-2xl text-gray-800 hover:text-black transition-colors">Do the Math</a>
         <a href="#contact" onClick={() => setIsMenuOpen(false)} className="text-2xl text-gray-800 hover:text-black transition-colors">Contact</a>
-        <a href="#contact" onClick={() => setIsMenuOpen(false)} className="bg-brand-red text-white font-semibold px-6 py-3 rounded-lg text-xl mt-4 hover:bg-red-700 transition-colors">
-            Get Started
+        <a href="#offer" onClick={() => setIsMenuOpen(false)} className="bg-brand-red text-white font-semibold px-6 py-3 rounded-lg text-xl mt-4 hover:bg-red-700 transition-colors">
+            Explore Our Solutions
         </a>
       </div>
     </>
