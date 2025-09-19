@@ -135,3 +135,29 @@ export const PlayCircleIcon: React.FC<IconProps> = ({ className }) => (
         <polygon points="10 8 16 12 10 16 10 8" />
     </svg>
 );
+
+export const DesignIcon: React.FC<IconProps> = ({ className }) => (
+    <svg className={className} fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 20h9M3 20h2.5M15 4h4v4h-4zM3 4h4v4H3zM3 12h4v4H3z" />
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9.5 4H12v16H9.5zM15 8h4M3 8h4M3 16h4M15 16h4" />
+    </svg>
+);
+
+export const UploadIcon: React.FC<IconProps> = ({ className }) => (
+    <svg className={className} fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-8l-4-4m0 0L8 8m4-4v12" />
+    </svg>
+);
+
+export const ProductionIcon: React.FC<IconProps> = ({ className }) => (
+    <svg className={className} fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h2M7 8h10M7 12h4m-4 4h4" />
+    </svg>
+);
+
+export const ShippingIcon: React.FC<IconProps> = ({ className }) => (
+    <svg className={className} fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+        <path d="M9 17a2 2 0 11-4 0 2 2 0 014 0zM19 17a2 2 0 11-4 0 2 2 0 014 0z" />
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 17H6V6h11v5m0 0l-4 4m4-4H6" />
+    </svg>
+);

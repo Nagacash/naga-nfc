@@ -46,6 +46,7 @@ const BundleProducts: React.FC = () => {
       imageUrl: bundleImage,
       paymentLink: "https://buy.stripe.com/dRmbJ2aak0eDf97fBI43S01",
       price: "€529",
+      perCardPrice: "€5.29/card",
     },
     {
       icon: <MusicIcon className="w-8 h-8 text-brand-red" />,
@@ -56,6 +57,7 @@ const BundleProducts: React.FC = () => {
       imageUrl: bundleImage,
       paymentLink: "https://buy.stripe.com/9B6aEYcisgdB6CBaho43S02",
       price: "€1999",
+      perCardPrice: "€4.00/card",
     },
     {
       icon: <MusicIcon className="w-8 h-8 text-brand-red" />,
@@ -66,6 +68,7 @@ const BundleProducts: React.FC = () => {
       imageUrl: bundleImage,
       paymentLink: "https://buy.stripe.com/bJebJ2gyI4uT9ON0GO43S04",
       price: "€3799",
+      perCardPrice: "€3.80/card",
     },
     {
       icon: <MusicIcon className="w-8 h-8 text-brand-red" />,
@@ -126,21 +129,6 @@ const BundleProducts: React.FC = () => {
         <p className="text-white max-w-2xl mx-auto mt-12 text-xl">
           Click on any product box to learn more and purchase your custom NFC solution!
         </p>
-        <div className="max-w-3xl mx-auto text-lg leading-relaxed text-gray-400 mt-12">
-          <h3 className="text-2xl md:text-3xl font-display text-white mb-4">How to Order</h3>
-          <p className="mb-4">
-            After your order is received by us, we will be in need of the artwork. We will send out an email with detailed artwork instructions to ensure your design is perfect for production.
-          </p>
-          <p className="mb-4">
-            Production days are typically 5-14 days, depending on the quantity of pieces ordered. We strive to complete all orders efficiently while maintaining our high quality standards.
-          </p>
-          <p className="mb-4">
-            We ship worldwide! No matter where you are, we can deliver your custom NFC solutions right to your doorstep.
-          </p>
-          <p className="mb-4">
-            For any questions regarding your order or artwork, please do not hesitate to contact us at: <a href="mailto:chosenfewrecords@hotmail.de" className="text-brand-red hover:underline">chosenfewrecords@hotmail.de</a>
-          </p>
-        </div>
       </div>
       {lightboxImage && <Lightbox imageUrl={lightboxImage} onClose={handleCloseLightbox} />}
       {selectedProduct && (
